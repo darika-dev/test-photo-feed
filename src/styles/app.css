@@ -1,0 +1,72 @@
+body {
+    min-width: 650px;
+}
+
+.controls {
+    padding: 1em;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+}
+
+.controls button {
+    margin-left: .5em;
+}
+
+.photos .row-flex {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.photos .photo {
+    background-color: #000;
+    margin: .5em;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 11px 10px 42px -18px rgba(10, 9, 10, 1);
+    flex-shrink: 0.1;
+}
+
+.small .photo {
+    width: 20%;
+}
+
+.medium .photo {
+    width: 32.25%;
+}
+
+.big .photo {
+    width: 49%;
+}
+
+.photos .list-item {
+    padding: 1.5em;
+    min-height: 300px;
+}
+
+.photos .list-item:nth-child(even) {
+    background-color: #f1f1f1;
+}
+
+.fullscreen-photo {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-position: center;
+    background-size: cover;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fullscreen-photo button {
+    position: fixed;
+    right: 2em;
+    top: 2em;
+}
+
+
